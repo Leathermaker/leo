@@ -7,6 +7,7 @@ interface UserLayoutProps{
 const UserLayout:React.FC<UserLayoutProps> = ({children}) => {
   return (
     <div>
+
       {children}
     </div>
   )

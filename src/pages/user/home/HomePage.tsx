@@ -11,6 +11,7 @@ const HomePage: React.FC = () => {
   return (
     <>
      {/* <WideScreenHandler> */}
+
       <Navbar />
       <Home />
       <AnalyticSection/>
@@ -19,6 +20,7 @@ const HomePage: React.FC = () => {
       <VideoSection/>
       <OurProducts/>
       <Footer/>
+
      {/* </WideScreenHandler> */}
     </>
   );

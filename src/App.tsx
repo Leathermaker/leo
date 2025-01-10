@@ -9,8 +9,8 @@ function App () {
    <AnimatedCursor 
    innerSize={8}
       outerSize={25}
-      color='193, 11, 111'
-      outerAlpha={0.2}
+      color='194, 30, 55'
+      outerAlpha={0.1}
       innerScale={0.7}
       outerScale={5}
       clickables={[
