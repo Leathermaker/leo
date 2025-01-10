@@ -30,7 +30,7 @@ const Navbar:React.FC = () => {
        </div>
        <div className='lg:block hidden'>
           <h1 className='text-gray-700'>Hotline 24/7</h1>
-           <h1 className='text-xl'>+234568597</h1>
+           <h1 className=''>+91-181-2651732</h1>
        </div>
     </div>
   </div>

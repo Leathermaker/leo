@@ -33,7 +33,7 @@ const AboutRightSection: React.FC = () => {
           meets the demands of modern design and utility.
         </h1>
       </div>
-
+{/* 
       <div className="py-4 border-b w-fit  border-gray-800/20">
         <h1 className="text-blue-950 text-xl  md:text-3xl">Annette Black</h1>
         <p className="text-gray-500 text-sm md:text-xl mt-2">
@@ -43,7 +43,7 @@ const AboutRightSection: React.FC = () => {
 
       <div>
         <img src={signature} alt="Signature" />
-      </div>
+      </div> */}
     </div>
   );
 };

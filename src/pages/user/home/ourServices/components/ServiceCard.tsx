@@ -7,28 +7,28 @@ const ServiceCard = () => {
     {
       icon: "df",
       title: "Automobile Industry",
-      desc: "We are providing the best UI/UX design. That help you be professional.",
+      desc: "We manufactures vinyl for automotive industry in Mumbai.",
       redirect: "/#",
       theme: "yellow-500",
     },
     {
       icon: "df",
       title: "Luggage Industry",
-      desc: "We are providing the best UI/UX design. That help you be professional.",
+      desc: "We are rich in offering its customers, coated vinyl textile fabric to any industry.",
       redirect: "/#",
       theme: "purple-500",
     },
     {
       icon: "df",
       title: "Garment Industry",
-      desc: "We are providing the best UI/UX design. That help you be professional.",
+      desc: "Vinyl fabric and textiles are being used for manufacturing various designer and styled garments.",
       redirect: "/#",
       theme: "orange-500",
     },
     {
       icon: "df",
       title: "Stationery Industry",
-      desc: "We are providing the best UI/UX design. That help you be professional.",
+      desc: "We render its Vinyl to almost each industry including Stationery, manufactured in Delhi.",
       redirect: "/#",
       theme: "green-500",
     },
@@ -93,7 +93,7 @@ const ServiceCard = () => {
               fontFamily="Arial"
               fontWeight="bold"
             >
-              0 {index}
+              0{index+1}
             </text>
           </svg>
         </div>

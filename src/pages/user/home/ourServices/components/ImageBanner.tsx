@@ -11,8 +11,8 @@ const ImageBanner: React.FC = () => {
       <div className="flex flex-col justify-center items-center gap-2 pt-24">
         <h1 className="text-blue-400 font-semibold text-2xl ">PRODUCT RANGE</h1>
         <div className="md:text-6xl sm:text-3xl text-2xl text-white font-bold">
-          <h1>Design the Concept of</h1>
-          <h1>Your Business Idea Now</h1>
+          <h1 className="text-center">Timeless elegance,</h1>
+          <h1 className="text-center"> unmatched durability</h1>
         </div>
 
         <ServiceCard />
