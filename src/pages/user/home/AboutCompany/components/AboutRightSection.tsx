@@ -1,5 +1,4 @@
 import React from "react";
-import signature from "../../../../../assets/images/signature.png";
 const AboutRightSection: React.FC = () => {
   return (
     <div className="w-full flex flex-col gap-7 lg:ps-12 ">
