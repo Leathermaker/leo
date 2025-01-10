@@ -19,7 +19,11 @@ export default function ContactForm() {
 
   return (
     <div className="   py-12 px-4 sm:px-6 lg:px-8">
-      <h1 className='text-center text-5xl pb-12'>Have Any Question?</h1>
+      <h1 className='text-center text-5xl pb-2'>Have Any Question?</h1>
+      <p className="md:text-md text-sm text-black/30 text-center pb-6 font-semibold">
+          Reach out to us for inquiries, support, or collaborations. <br />
+          We're here to assist you with excellence and care."
+        </p>
       <div className="max-w-5xl mx-auto bg-white p-8 rounded-lg shadow-lg  ">
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
