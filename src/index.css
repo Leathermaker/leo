@@ -13,3 +13,13 @@
     -ms-overflow-style: none; 
     scrollbar-width: none; 
   }
+
+  @keyframes customPing {
+    75%, 100% {
+        transform: scale(1.4  );
+        opacity: 0;
+    }
+}
+.animate-customPing {
+    animation: customPing 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}

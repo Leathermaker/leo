@@ -31,14 +31,14 @@ const Partner:React.FC = () => {
         <div className="w-[12rem] h-1 bg-blue-500"/>
         </div>
      
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full  py-12 px-4 sm:px-8 lg:px-16 xl:px-32">
+    <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 w-full  py-12 px-4 sm:px-8 lg:px-16 xl:px-32">
       {partners.map((partner, index) => (
         <div
           key={`PARTNERS${index}`}
-          className="flex flex-col items-center justify-center p-4 rounded-lg hover:shadow-lg transition-shadow duration-300"
+          className="flex flex-col items-center justify-center sm:p-4 rounded-lg hover:shadow-lg transition-shadow duration-300"
         >   
           {/* Image container */}
-          <div className="bg-white w-[14rem] h-[14rem] overflow-hidden rounded-lg">
+          <div className="bg-white w-full  sm:w-[14rem] h-[14rem] overflow-hidden rounded-lg">
             <img
               src={partner.avatar}
               alt={partner.name}

@@ -11,10 +11,7 @@ const ScrollToTop: React.FC = () => {
 
   return (
     <div className="fixed bottom-5 sm:bottom-10 sm:right-10 right-5 z-50">
-      {/* Outer div with animate-ping */}
-      <div className="aspect-square rounded-full border-2 animate-ping absolute inset-0"></div>
-
-      {/* Inner div with the icon */}
+    
       <div
         onClick={handleScrollToTop}
         className="bg-blue-100 rounded-full p-2 shadow-lg cursor-pointer hover:bg-gray-200 transition-all duration-300 ease-in-out relative"

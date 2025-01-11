@@ -7,10 +7,10 @@ import useNavbarStore from "../../../../store/NavbarStore";
 import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
-  const {   openNavbar } = useNavbarStore();
+  const { openNavbar } = useNavbarStore();
 
   return (
-    <div className="text-black flex justify-between items-center py-5 w-full lg:px-24 px-4 ">
+    <div className="text-black flex justify-between items-center py-1 w-full lg:px-24 px-4 ">
       <div
         onClick={() => openNavbar()}
         className="block md:hidden bg-blue-600 p-2 rounded-md"
@@ -25,8 +25,9 @@ const Navbar: React.FC = () => {
 
       <NavbarMenu />
 
-      <Link to={"/contact"} className="flex items-center gap-2">
-        <div className="bg-blue-400/30 h-12 aspect-square  rounded-full flex items-center justify-center ">
+      <Link to={"/contact"} className="flex items-center gap-2 ">
+        <div className="bg-blue-100 h-12 aspect-square  rounded-full flex items-center justify-center z-20 relative ">
+          <div className="aspect-square inset-0 bg-blue-100 border-blue-400/80 rounded-full border animate-customPing absolute -z-10" />
           <FiPhoneCall />
         </div>
         <div className="lg:block hidden">
