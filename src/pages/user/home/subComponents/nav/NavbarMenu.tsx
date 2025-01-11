@@ -8,33 +8,35 @@ interface NavbarMenuType{
   href : string;
 }
 
-const NavbarMenu: React.FC = () => {
-  const menus: NavbarMenuType[] = [
-    {
-      title: "Home",
-      href: "/",
-    },
-    {
-      title: "About",
-      href: "/about",
-    },
-    {
-      title: "Services",
-      href: "/",
-    },
-    {
-      title: "Blog",
-      href: "/blog",
-    },
-    {
-      title: "Page",
-      href: "/page",
-    },
-    {
-      title: "Contact",
-      href: "/contact",
-    },
-  ];
+export const menus: NavbarMenuType[] = [
+  {
+    title: "Home",
+    href: "/",
+  },
+  {
+    title: "About",
+    href: "/about",
+  },
+  {
+    title: "Products",
+    href: "/products",
+  },
+  {
+    title: "Blog",
+    href: "/blog",
+  },
+  {
+    title: "Page",
+    href: "/page",
+  },
+  {
+    title: "Contact",
+    href: "/contact",
+  },
+];
+
+ const NavbarMenu: React.FC = () => {
+  
   return (
     <div className="hidden md:flex gap-6  ">
       {menus.map((menu, idx) => {

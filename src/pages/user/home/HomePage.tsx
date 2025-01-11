@@ -1,4 +1,4 @@
-import { AnalyticSection, Home, Navbar } from "./components";
+import { AnalyticSection, Home} from "./components";
 import { AboutCompany } from "./subComponents";
 import OurServices from "./ourServices/OurServices";
 import { VideoSection } from "./videoSection";
@@ -12,13 +12,12 @@ const HomePage: React.FC = () => {
     <>
      {/* <WideScreenHandler> */}
 
-      <Navbar />
       <Home />
       <AnalyticSection/>
-      <AboutCompany/>
+      <OurProducts/>
       <OurServices/>
       <VideoSection/>
-      <OurProducts/>
+      <AboutCompany/>
       <Footer/>
 
      {/* </WideScreenHandler> */}

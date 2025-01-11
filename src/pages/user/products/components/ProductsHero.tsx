@@ -1,6 +1,6 @@
 import React from "react";
 import leatherImage from "../../../../assets/images/contactimage.png";
-const ContactHero: React.FC = () => {
+const ProuctsHero: React.FC = () => {
   return (
     <div
       style={{
@@ -11,11 +11,10 @@ const ContactHero: React.FC = () => {
       className="min-h-[24rem]  w-full "
     >
       <div className="w-full h-[24rem]  flex flex-col justify-center items-center">
-        <h1 className="text-white text-5xl font-bold ">CONTACT US</h1>
-       
+        <h1 className="text-white text-5xl font-bold ">PRODUCTS</h1>
       </div>
     </div>
-  );
+  );  
 };
 
-export default ContactHero;
+export default ProuctsHero;

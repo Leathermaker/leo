@@ -1,18 +1,20 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import {  Route, Routes } from 'react-router-dom'
+
 // import { HomePage } from '../pages/user/home'
-import ApiCallDemo from '../pages/user/apicall/ApiCallDemo'
-import { Contact, HomePage } from '../pages'
+import { Contact, HomePage, Products } from '../pages'
+import { Navbar } from '../pages/user/home/components'
 
 const Router:React.FC = () => {
   return (
-    <BrowserRouter>
+    <>
+        <Navbar/>
        <Routes>
         <Route index element={<HomePage/>} />
         <Route path='/contact' element={<Contact/>} />
-        <Route path="/api/test" element={<ApiCallDemo />}/>
+        <Route path='/products' element={<Products/>} />
        </Routes>
-    </BrowserRouter>
+    </>
   )
 }
 
