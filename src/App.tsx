@@ -4,6 +4,7 @@ import AnimatedCursor from "react-animated-cursor";
 import useNavbarStore from "./store/NavbarStore";
 import React from "react";
 import MobileNavbar from "./components/MobileNavbar";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App:React.FC=()=> {
   const { isOpen} = useNavbarStore();
@@ -46,6 +47,7 @@ const App:React.FC=()=> {
           ]}
         />
         {isOpen && <MobileNavbar />}
+        <ScrollToTop/>
       </div>
     </>
   );
