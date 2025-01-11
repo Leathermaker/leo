@@ -9,9 +9,17 @@ const App:React.FC=()=> {
   const { isOpen} = useNavbarStore();
 
   React.useEffect(() => {
-    console.log(isOpen);
-    
-  })
+    if (isOpen) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    // Cleanup function to remove the class when the component unmounts
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [isOpen]);
   return (
     <>
       <div className="w-full h-full relative ">
