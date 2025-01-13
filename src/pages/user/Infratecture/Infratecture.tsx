@@ -1,11 +1,12 @@
 import React from 'react'
-import InfratectureHero from './components/InfratectureHero'
 import { InfratectureImages, InfratectureTitle } from './components'
+import PageHeroSection from '../../../components/PageHeroSection'
 
 const Infratecture:React.FC = () => {
   return (
     <div>
-      <InfratectureHero/>
+      {/* <InfratectureHero/> */}
+      <PageHeroSection title={"INFRASTRUCTURE"}/>
       <InfratectureTitle/>
       <InfratectureImages/>
     </div>

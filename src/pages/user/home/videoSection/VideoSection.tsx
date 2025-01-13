@@ -14,9 +14,9 @@ const VideoSection: React.FC = () => {
          <div className="bg-white bg-cover object-cover rounded-full h-24 aspect-square flex justify-center items-center">
          <BsFillTriangleFill size={35} className="rotate-90 text-yellow-500 "   />
          </div>
-      <div className=" hidden md:block absolute -z-10 -bottom-24  left-[12vw] bg-red-400 h-[10rem] aspect-square rounded-full "/>
+      <div className=" hidden md:block absolute -z-10 -bottom-24  left-[12vw] bg-red-400/50 h-[10rem] aspect-square rounded-full "/>
       <div className=" hidden md:block absolute -z-10 -bottom-24  -right-[5rem] bg-yellow-100 h-[10rem] aspect-square rounded-full "/>
-      <div className=" hidden md:block absolute -z-10 -top-[2rem]  right-[4rem] bg-green-400 h-[10rem] aspect-square rounded-full "/>
+      <div className=" hidden md:block absolute -z-10 -top-[2rem]  right-[4rem] bg-green-400/50 h-[10rem] aspect-square rounded-full "/>
 
       </div>
 
