@@ -21,7 +21,7 @@ const PageHeroSection: React.FC<PageHeroSectionProps> = ({ title }) => {
         disableOnInteraction: false, // Continue autoplay after user interaction
       }}
       modules={[Pagination, Autoplay]} // Add Autoplay module
-      className="h-[24rem] relative"
+      className="h-[24rem] relative overflow-hidden"
     >
       <h1 className="text-white md:text-[7rem] text-5xl z-10 font-bold motion-preset-focus absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         {title}
