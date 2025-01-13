@@ -14,7 +14,6 @@ const Contact: React.FC = () => {
       <Partner/>
       <ContactForm />
       <GoogleMapEmbed />
-      <Footer />
     </div>
   );
 };

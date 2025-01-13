@@ -18,7 +18,6 @@ const HomePage: React.FC = () => {
       <OurServices/>
       <VideoSection/>
       <AboutCompany/>
-      <Footer/>
 
      {/* </WideScreenHandler> */}
     </>

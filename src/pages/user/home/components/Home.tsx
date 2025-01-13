@@ -9,7 +9,7 @@ import {
 
 const Home: React.FC = () => {
   return (
-    <div className="h-[45rem h-auto grid grid-cols-12 relative  bg-red-5">
+    <div className=" h-auto grid grid-cols-12 relative  bg-red-5 py-12 lg:py-0">
       {/* Left Section */}
       <div className="lg:col-span-6 col-span-12 flex flex-col gap-6 items-center lg:items-start justify-center  px-4 sm:px-8 lg:px-16 xl:px-24 ">
         

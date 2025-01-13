@@ -18,7 +18,7 @@ const MobileNavbar:React.FC = () => {
         {menus.map((menu, index) => {
           return (
             <Link
-              key={index}
+              key={`MOBILENAVBAR_${index}`}
               to={menu.href}
               onClick={() => closeNavbar()}
               className="text-white text-start text-4xl font-bold mb-4 motion-translate-x-in-[-100%] motion-translate-y-in-[-1%]"

@@ -8,7 +8,6 @@ const Products:React.FC = () => {
     <div>
        <ProductsHero/>
        <ProductAndCategory/>
-       <Footer/>
     </div>
   )
 }

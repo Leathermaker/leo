@@ -52,7 +52,7 @@ const Category: React.FC = () => {
             className="w-[11rem] h-[9rem] p-2 flex flex-col items-center   justify-start gap-2  "
             key={item.id}
           >
-            <div className="bg-red-950 h-[5rem] aspect-square rounded-full overflow-hidden ">
+            <div className="bg-red-950 h-[3rem] md:h-[5rem] aspect-square rounded-full overflow-hidden ">
               <img
                 src={item.image}
                 alt=""

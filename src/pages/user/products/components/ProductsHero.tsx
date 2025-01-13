@@ -11,7 +11,7 @@ const ProuctsHero: React.FC = () => {
       className="min-h-[24rem]  w-full "
     >
       <div className="w-full h-[24rem]  flex flex-col justify-center items-center">
-        <h1 className="text-white text-5xl font-bold ">PRODUCTS</h1>
+        <h1 className="text-white text-5xl font-bold motion-preset-focus ">PRODUCTS</h1>
       </div>
     </div>
   );  
