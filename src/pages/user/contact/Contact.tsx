@@ -1,5 +1,4 @@
 import React from "react";
-import { Footer } from "../home/footer";
 import Address from "./components/Address";
 import ContactForm from "./components/ContactForm";
 import GoogleMapEmbed from "./components/GoogleMapEmbed";
